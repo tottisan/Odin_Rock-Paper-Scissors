@@ -50,6 +50,12 @@ header {
   max-width: 11em;
 }
 
+.scores {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .score {
   display: flex;
   align-items: center;
@@ -57,6 +63,7 @@ header {
   background-color: #fff;
   border-radius: 5px;
   padding: 1rem;
+  width: 4.5rem;
 }
 
 .score-title {
@@ -74,7 +81,7 @@ header {
 /* Game dashboard */
 main {
   background: url(../images/bg-triangle.svg) no-repeat center;
-  margin: 3em 0;
+  margin-top: 3em;
 }
 
 article {
